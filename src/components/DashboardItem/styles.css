@@ -1,0 +1,11 @@
+.dashboard-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dashboard-info--active {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 700;
+}

@@ -1,0 +1,17 @@
+.doughnut {
+  position: relative;
+}
+
+.doughnut__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.doughnut__amount {
+  margin: 0;
+  color: #ef674b;
+  font-weight: 700;
+  font-size: 32px;
+}
