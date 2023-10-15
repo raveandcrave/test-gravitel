@@ -52,7 +52,7 @@ const DashboardItem: React.FC<DashboardItemProps> = ({ statistic, title }) => {
   const setAllStatisticActive = () => {
     const activeElements = Object.keys(statistic)
       .filter((key) => key !== "__typename")
-      .map((key, index) => ({
+      .map((_, index) => ({
         datasetIndex: 0,
         index,
       }));

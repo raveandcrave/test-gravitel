@@ -64,7 +64,7 @@ const DoughnutChart = forwardRef(
               },
             },
             cutout: "85%",
-            onHover: (event, activeEls) => {
+            onHover: (_, activeEls) => {
               if (activeEls[0]) {
                 onHover(activeEls[0].index);
               } else {
